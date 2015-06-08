@@ -1,0 +1,38 @@
+DAY TWO EXERCISES
+
+Morning Session
+
+E3: 
+
+Part 1:
+1. x = 15
+2. y = 20
+3. Yes
+4. Yes
+
+Part 2:
+1. integer
+2. string
+3. Yes, "#{x}#{y}"
+4. string
+5. hi!joe
+6. h!joe/n
+7. A. hi!joe
+	B. hi!joe
+	C. hi!joe
+	D. hi!joe
+	   .strip
+
+Afternoon Session:
+
+E1: 
+
+A. False
+B. False
+C. True
+D. 6
+E. True
+F. True
+G. True
+H. True
+I. 7

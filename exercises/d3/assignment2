@@ -1,0 +1,42 @@
+Part 1:
+A. Fixnum
+B. Float
+C. Fixnum
+D. TrueClass
+E. FalseClass
+F. Error
+G. => ["a", "b"]
+H. Array
+I. Array
+J. String
+K. Fixnum
+L. Class
+M. Class
+
+Part 2: 
+Instance: fishclass(tuna)
+Method: .environment
+
+Part 3: 
+IT'S SO LOUD
+=> 20
+
+It changes the loudness to 20 within the method, 
+Then it prints "IT'S SO LOUD!"
+Then it sets the return value at 20
+
+Within the method it's 20, because the loudness value was changed within the method; it loudness is called separate from the method it will be 10
+
+Part 4: 
+A. A string (it creates an array)
+B. It returns an array
+C. It takes arguments
+D. Method arguments
+E. 
+F. 
+
+Part 5:
+A.
+B.
+C.
+D.
