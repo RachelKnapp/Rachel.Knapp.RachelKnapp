@@ -2,9 +2,22 @@
 
 <p>Hello. Welcome to Petitions!</p>
 
+<ol>
 <% @petitions.each do |petition| %>
-	<ol>
-		<li><%=petition["title"]
-		petition["body"]%></li>
+<li>
+Title: <%=petition["title"]%> 
+<br/><br/>
+Body: <%=petition["body"]%>
+<br/><br/>
+URL: <%=petition["url"]%>
+<br/><br/>
+Deadline: <%=petition["deadline"]%>
+<br/><br/>
+Status: <%=petition["status"]%>
+<br/><br/>
+Created: <%=petition["created"]%>
+<br/><br/>
+Signature Count: <%=petition["signatureCount"]%>
+<br/> <br/></li>
 <% end %>
-	</ol>
+</ol>
