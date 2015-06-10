@@ -1,0 +1,10 @@
+<h1>Petitions</h1>
+
+<p>Hello. Welcome to Petitions!</p>
+
+<% @petitions.each do |petition| %>
+	<ol>
+		<li><%=petition["title"]
+		petition["body"]%></li>
+<% end %>
+	</ol>
