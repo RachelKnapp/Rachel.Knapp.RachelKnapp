@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item_id: 1
+  user_id: 1
+  text: MyString
+  stars: 1
+  dates: MyString
+  likes: 1
+
+two:
+  item_id: 1
+  user_id: 1
+  text: MyString
+  stars: 1
+  dates: MyString
+  likes: 1

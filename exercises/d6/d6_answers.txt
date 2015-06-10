@@ -3,7 +3,7 @@ E1: GIT research
 1. 'git init' initializes the new Git repository and makes it possible for one to make changes to their code
 2. 'git add' adds modified files to the queue to be committed later, whereas 'git commit' creates a new revision in the log
 3. A staged file is ready to be committed - it has registered that the file has been modified, whereas a committed file has been changed in the repository and thus all changes are saved. 
-4. git add-commit -m 'My commit message' 
+4. git add -a && git commit 
 5. how to unstage a file - 'git reset HEAD file'; how to go back to an older version - 'git checkout abcde file/to/restore'
 6. In order to ensure code is easily mergeable with the codes of other coders
 7. git checkout [revision] .
@@ -23,3 +23,38 @@ E2: Github research
 	To share the cool commits you've done with others, you can use 'git push' to push your changes to the remote repository. 
 4. What does git pull do? How is it different from/same as git fetch and git merge?
 	* 'git pull' runs git fetch with the given parameters and calls git merge to merge the retrieved branch heads into the current branch. 
+
+E4: 
+
+1. What is a request?
+	It's an easy-to-use method for retrieving data from resources of all types.
+2. What makes the request?
+	The WebClient provides methods for uploading and downloading files, sending and receiving streams, and sending a data buffer to the server and receiving a response. WebClient uses the WebRequest and WebResponse classes to make the actual connections to the Internet resource, so any registered pluggable protocol is available for use.
+3. Where does it go?
+	It goes to the closest DNS server. 
+4. What happens to the request once it gets "there"?
+	It receives an IP address from the DNS.
+5. What comes back? What is it? What data does it contain?
+	It takes the IP address obtained in the DNS and then reports back to the local server. Then the local server uses that IP address to search for the file within many different web servers. 
+6. What happen once it comes back?
+	The Web server delivers a server response either in the form of content of a page.html or an error code.
+
+E5:
+
+1. It prints:
+
+404
+
+There isn't a GitHub Pages site here.
+
+If you're trying to publish one, read the full documentation to learn how to set up GitHub Pages for your repository, organization, or user account.
+
+2. It means that a file called ruby_rocks.rb has not been committed by the Github user. 
+
+3. The 404 or Not Found error message is an HTTP standard response code indicating that the client was able to communicate with a given server, but the server could not find what was requested.
+
+4. No it means someone hasn't saved their coding so that it can be accessible via the online server platform.
+
+
+
+

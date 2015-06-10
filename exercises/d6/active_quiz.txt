@@ -1,0 +1,15 @@
+E1: 
+
+1. What is a database?
+	It is an organized collection of data, accessible from the internet. It differs from a local database, held in an individual computer or its attached storage, such as a CD. 
+2. What is a database table?
+	In an internet database, a table (sometimes called a file) organizes the information about a single topic into rows and columns. For example, a database for a business would typically contain a table for customer information, which would store customers' account numbers, addresses, phone numbers, and so on as a series of columns. Each single piece of data (such as the account number) is a field in the table. A column consists of all the entries in a single field, such as the telephone numbers of all the customers. Fields, in turn, are organized as records, which are complete sets of information (such as the set of information about a particular customer), each of which comprises a row. The process of normalization determines how data will be most effectively organized into tables.
+3. Build
+
+ID | Text | hashtags_id 
+
+4. To help more effectively organize our data
+
+5. The active record pattern is an architectural pattern found in software that stores in-memory object data in relational databases. It was named by Martin Fowler in his 2003 book Patterns of Enterprise Application Architecture.
+
+6. Active Record is specific to Ruby on Rails whereas a database table is not. 

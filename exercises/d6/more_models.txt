@@ -1,0 +1,31 @@
+1. Pages: Sign in/Create Account, Home page, Recommendations, Today's deals, Your Account, Wish List, Help, Gift Cards, Order, Products
+2. Storable Data: "items in a shopper's cart", "items in a shopper's wish list", "user email", "user password", "user's most recently viewed", "user credit card number", "user address", "user phone number", "settings", "previous purchases"
+3. CRUD: A user creates an order, a user can edit an order, a user can delete an item from their order, a user can archive an order, a user can read an order, a user can delete an order
+4. Models: User, Order, Products, Ratings, Profiles
+
+5. "Users"				"Categories"
+    #1					  #many
+     |						|
+    #many      			  #many 
+    "Orders" #many - #many "Products" #many - #many "Ratings"
+
+6. Tables
+
+User
+ID | password | email | preferences
+
+Orders
+ID | User_id | date_of_purchase | cost | shipping info
+
+Item
+ID | prices | text | average_rating 
+
+Ratings 
+ID | item_id | user_id | text | stars | dates | likes
+
+Category 
+Name
+
+
+
+

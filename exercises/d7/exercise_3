@@ -1,0 +1,20 @@
+User.new(:name => "bowling_team", :followers => 456).save
+User.find(1)
+User.find_by(:followers => 456)
+User.where(:followers => 10)
+user.update_attributes(:name => "we_surf").save
+tweet = Tweet.new(:body => "I'm a bru", :user_id => 1)
+tweet.update_attributes(:body => "I'm the bruest of them all").save
+tweet.destroy
+
+for i in 1..10
+	User.new(:name => #{user(i)}).save
+end
+
+for i in 1..10
+	User.destroy
+end
+
+for i in 1..10
+	Tweet.new(:body => "I'm number #{i}", user_id => i)
+end
